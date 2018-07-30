@@ -1,7 +1,7 @@
 # todoAPI
 This is a simple API for managing a TODO List
 
-# Installation
+## Installation
 
 *Please note mongoDB must be installed locally 
 
@@ -12,7 +12,7 @@ $npm install
 $npm start
 ```
 
-# Run Tests
+### Run Tests
 
 ```sh
 $npm test
