@@ -73,7 +73,7 @@ describe('TodoAPI', ()=>{
 
     it('should return 400 when given invalid list id /lists/<id> GET', (done)=>{
         chai.request(server)
-        .get(`/lists/ʂ`)
+        .get(`/lists/abcdefghijklmnopqrstuvvv`)
         .end(function(err, res){
             res.should.have.status(400);
             done();
